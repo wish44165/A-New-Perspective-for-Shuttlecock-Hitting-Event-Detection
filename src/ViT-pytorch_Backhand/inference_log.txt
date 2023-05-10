@@ -1,0 +1,96 @@
+(ViT_j) yuhsi@yuhsi-System-Product-Name:~/Badminton/src/ViT-pytorch_Backhand$ python3 submit.py --model_type ["ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16"] --checkpoint ["output/fold1_Backhand_ViT-B_16_checkpoint.bin","output/fold2_Backhand_ViT-B_16_checkpoint.bin","output/fold3_Backhand_ViT-B_16_checkpoint.bin","output/fold4_Backhand_ViT-B_16_checkpoint.bin","output/fold5_Backhand_ViT-B_16_checkpoint.bin"] --img_size [480,480,480,480,480]
+05/10/2023 22:07:19 - WARNING - __main__ - Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, 16-bits training: False
+{0: 1, 1: 2}
+05/10/2023 22:07:20 - INFO - __main__ - classifier: token
+hidden_size: 768
+patches:
+  size: !!python/tuple
+  - 16
+  - 16
+representation_size: null
+transformer:
+  attention_dropout_rate: 0.0
+  dropout_rate: 0.1
+  mlp_dim: 3072
+  num_heads: 12
+  num_layers: 12
+
+05/10/2023 22:07:20 - INFO - __main__ - Training parameters Namespace(model_type='ViT-B_16', checkpoint='output/fold1_Backhand_ViT-B_16_checkpoint.bin', img_size=480, test_dir='/home/yuhsi/Badminton/src/postprocess/HitFrame/', dataset='', num_classes=2, local_rank=-1, seed=42, fp16=False, fp16_opt_level='O2', n_gpu=1, device=device(type='cuda'))
+05/10/2023 22:07:20 - INFO - __main__ - Total Parameter: 	86.3M
+86.340866
+Testing: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4007/4007 [02:29<00:00, 26.86it/s]
+05/10/2023 22:09:50 - INFO - __main__ - classifier: token
+hidden_size: 768
+patches:
+  size: !!python/tuple
+  - 16
+  - 16
+representation_size: null
+transformer:
+  attention_dropout_rate: 0.0
+  dropout_rate: 0.1
+  mlp_dim: 3072
+  num_heads: 12
+  num_layers: 12
+
+05/10/2023 22:09:50 - INFO - __main__ - Training parameters Namespace(model_type='ViT-B_16', checkpoint='output/fold2_Backhand_ViT-B_16_checkpoint.bin', img_size=480, test_dir='/home/yuhsi/Badminton/src/postprocess/HitFrame/', dataset='', num_classes=2, local_rank=-1, seed=42, fp16=False, fp16_opt_level='O2', n_gpu=1, device=device(type='cuda'))
+05/10/2023 22:09:50 - INFO - __main__ - Total Parameter: 	86.3M
+86.340866
+Testing: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4007/4007 [02:29<00:00, 26.88it/s]
+05/10/2023 22:12:21 - INFO - __main__ - classifier: token
+hidden_size: 768
+patches:
+  size: !!python/tuple
+  - 16
+  - 16
+representation_size: null
+transformer:
+  attention_dropout_rate: 0.0
+  dropout_rate: 0.1
+  mlp_dim: 3072
+  num_heads: 12
+  num_layers: 12
+
+05/10/2023 22:12:21 - INFO - __main__ - Training parameters Namespace(model_type='ViT-B_16', checkpoint='output/fold3_Backhand_ViT-B_16_checkpoint.bin', img_size=480, test_dir='/home/yuhsi/Badminton/src/postprocess/HitFrame/', dataset='', num_classes=2, local_rank=-1, seed=42, fp16=False, fp16_opt_level='O2', n_gpu=1, device=device(type='cuda'))
+05/10/2023 22:12:21 - INFO - __main__ - Total Parameter: 	86.3M
+86.340866
+Testing: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4007/4007 [02:28<00:00, 26.90it/s]
+05/10/2023 22:14:51 - INFO - __main__ - classifier: token
+hidden_size: 768
+patches:
+  size: !!python/tuple
+  - 16
+  - 16
+representation_size: null
+transformer:
+  attention_dropout_rate: 0.0
+  dropout_rate: 0.1
+  mlp_dim: 3072
+  num_heads: 12
+  num_layers: 12
+
+05/10/2023 22:14:51 - INFO - __main__ - Training parameters Namespace(model_type='ViT-B_16', checkpoint='output/fold4_Backhand_ViT-B_16_checkpoint.bin', img_size=480, test_dir='/home/yuhsi/Badminton/src/postprocess/HitFrame/', dataset='', num_classes=2, local_rank=-1, seed=42, fp16=False, fp16_opt_level='O2', n_gpu=1, device=device(type='cuda'))
+05/10/2023 22:14:51 - INFO - __main__ - Total Parameter: 	86.3M
+86.340866
+Testing: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4007/4007 [02:30<00:00, 26.69it/s]
+05/10/2023 22:17:22 - INFO - __main__ - classifier: token
+hidden_size: 768
+patches:
+  size: !!python/tuple
+  - 16
+  - 16
+representation_size: null
+transformer:
+  attention_dropout_rate: 0.0
+  dropout_rate: 0.1
+  mlp_dim: 3072
+  num_heads: 12
+  num_layers: 12
+
+05/10/2023 22:17:22 - INFO - __main__ - Training parameters Namespace(model_type='ViT-B_16', checkpoint='output/fold5_Backhand_ViT-B_16_checkpoint.bin', img_size=480, test_dir='/home/yuhsi/Badminton/src/postprocess/HitFrame/', dataset='', num_classes=2, local_rank=-1, seed=42, fp16=False, fp16_opt_level='O2', n_gpu=1, device=device(type='cuda'))
+05/10/2023 22:17:22 - INFO - __main__ - Total Parameter: 	86.3M
+86.340866
+Testing: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4007/4007 [02:30<00:00, 26.60it/s]
+[1 1 1 ... 1 0 0]
+[1 1 1 ... 1 0 0]
+(ViT_j) yuhsi@yuhsi-System-Product-Name:~/Badminton/src/ViT-pytorch_Backhand$
