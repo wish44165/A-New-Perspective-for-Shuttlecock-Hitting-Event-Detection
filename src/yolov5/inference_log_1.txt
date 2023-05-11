@@ -1,0 +1,1 @@
+[31m[1mrequirements:[0m /home/yuhsi/Badminton/src/requirements.txt not found, check failed.
