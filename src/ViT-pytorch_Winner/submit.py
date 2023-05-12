@@ -242,8 +242,8 @@ def main():
             Logits[j]+=softmax(lt[j])
 
 
-    csvPath1 = '/home/yuhsi/Badminton/src/ViT-pytorch_BallType/golfdb_G3_fold5_iter3000_val_test_hitter_vote_roundhead_vote_backhand_vote_ballheight_vote_LX_LY_case1_HD_balltype_vote.csv'    ################################ 3. csv-path ################################
-    csvPath2 = '/home/yuhsi/Badminton/src/ViT-pytorch_BallType/golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_mean.csv'    ################################ 3. csv-path ################################
+    csvPath1 = '/home/yuhsi/Badminton/src/ViT-pytorch_BallType/golfdb_G3_fold5_iter3000_val_test_hitter_vote_roundhead_vote_backhand_vote_ballheight_vote_LX_LY_case1_HD_balltype_mean.csv'    ################################ 3. csv-path ################################
+    csvPath2 = '/home/yuhsi/Badminton/src/ViT-pytorch_BallType/golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote.csv'    ################################ 3. csv-path ################################
     df1 = pd.read_csv(csvPath1)
     df2 = pd.read_csv(csvPath2)
 
@@ -267,12 +267,14 @@ def main():
 
     for i in range(len(videoNames)-1):
         o = videoNames[i]
+        if i == len(videoNames) - 2:
+            df1['Winner'][i+1] = Hitter[i+1]
         if videoNames[i+1] == o:
             pass
         else:
             df1['Winner'][i] = Hitter[i]    ################################ 4. attribute ################################
 
-    df1.to_csv('golfdb_G3_fold5_iter3000_val_test_hitter_vote_roundhead_vote_backhand_vote_ballheight_vote_LX_LY_case1_HD_balltype_vote_winner_vote_case1.csv', index=False)    ################################ 5. csv-name ################################
+    df1.to_csv('golfdb_G3_fold5_iter3000_val_test_hitter_vote_roundhead_vote_backhand_vote_ballheight_vote_LX_LY_case1_HD_balltype_mean_winner_vote_case1.csv', index=False)    ################################ 5. csv-name ################################
 
 
 
@@ -291,12 +293,14 @@ def main():
 
     for i in range(len(videoNames)-1):
         o = videoNames[i]
+        if i == len(videoNames) - 2:
+            df2['Winner'][i+1] = Hitter[i+1]
         if videoNames[i+1] == o:
             pass
         else:
             df2['Winner'][i] = Hitter[i]    ################################ 4. attribute ################################
 
-    df2.to_csv('golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_mean_winner_mean_case1.csv', index=False)    ################################ 5. csv-name ################################
+    df2.to_csv('golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case1.csv', index=False)    ################################ 5. csv-name ################################
 
 
     ################
@@ -305,24 +309,34 @@ def main():
     videoNames = df1['VideoName'].tolist()
     for i in range(len(videoNames)-1):
         o = videoNames[i]
+        if i == len(videoNames) - 2:
+            winnerSet = {'A', 'B'}
+            winnerSet.remove(df1['Hitter'][i+1])
+            df1['Winner'][i+1] = list(winnerSet)[0]
         if videoNames[i+1] == o:
             pass
         else:
             winnerSet = {'A', 'B'}
             winnerSet.remove(df1['Hitter'][i])
             df1['Winner'][i] = list(winnerSet)[0]
-    df1.to_csv('golfdb_G3_fold5_iter3000_val_test_hitter_vote_roundhead_vote_backhand_vote_ballheight_vote_LX_LY_case1_HD_balltype_vote_winner_vote_case2.csv', index=False)    ################################ 5. csv-name ################################
+    
+    df1.to_csv('golfdb_G3_fold5_iter3000_val_test_hitter_vote_roundhead_vote_backhand_vote_ballheight_vote_LX_LY_case1_HD_balltype_mean_winner_vote_case2.csv', index=False)    ################################ 5. csv-name ################################
 
     videoNames = df2['VideoName'].tolist()
     for i in range(len(videoNames)-1):
         o = videoNames[i]
+        if i == len(videoNames) - 2:
+            winnerSet = {'A', 'B'}
+            winnerSet.remove(df2['Hitter'][i+1])
+            df2['Winner'][i+1] = list(winnerSet)[0]
         if videoNames[i+1] == o:
             pass
         else:
             winnerSet = {'A', 'B'}
             winnerSet.remove(df2['Hitter'][i])
             df2['Winner'][i] = list(winnerSet)[0]
-    df2.to_csv('golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_mean_winner_mean_case2.csv', index=False)    ################################ 5. csv-name ################################
+            
+    df2.to_csv('golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case2.csv', index=False)    ################################ 5. csv-name ################################
 
 
 if __name__ == "__main__":
