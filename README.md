@@ -28,15 +28,23 @@ In terms of badminton skills and tactics analysis, our team has proposed a match
 
 <summary>Create Conda Environments</summary>
 
-###
+### TrackNetv2
 ```bash
-# TrackNetv2
 $ conda create -n tracknetv2 python=3.9 -y
-# SwingNet
+```
+  
+### SwingNet
+```bash
 $ conda create -n golfdb python=3.8 -y
-# ViT
+```
+
+### ViT
+```bash
 $ conda create -n ViT_j python==3.9 -y
-# YOLOv5
+```
+  
+### YOLOv5
+```bash
 $ conda create -n yolov5 python=3.7 -y
 ```
   
@@ -47,8 +55,8 @@ $ conda create -n yolov5 python=3.7 -y
 
 <summary>Install Required Packages</summary>
 
+### TrackNetv2
 ```bash
-# TrackNetv2
 $ conda activate tracknetv2
 $ git clone https://nol.cs.nctu.edu.tw:234/lukelin/TrackNetV2_pytorch.git
 $ sudo apt-get install git
@@ -59,7 +67,10 @@ $ pip3 install matplotlib
 $ pip3 install -U scikit-learn
 $ pip3 install torch
 $ pip3 install torchvision
-# SwingNet
+```
+
+### SwingNet
+```bash
 $ conda activate golfdb
 $ git clone https://github.com/wmcnally/golfdb.git
 $ pip3 install opencv-python
@@ -68,7 +79,10 @@ $ pip3 install pandas
 $ pip3 install torch
 $ pip3 install torchvision
 $ pip3 install torchaudio
-# ViT
+```
+  
+### ViT
+```bash
 $ conda activate ViT_j
 $ git clone https://github.com/jeonsworld/ViT-pytorch.git
 $ cd ViT-pytorch/
@@ -79,7 +93,10 @@ $ wget https://storage.googleapis.com/vit_models/imagenet21k+imagenet2012/ViT-B_
 $ git clone https://github.com/NVIDIA/apex    # A PyTorch Extension
 $ cd apex/
 $ python3 setup.py install
-# YOLOv5
+```
+  
+### YOLOv5
+```bash
 $ conda activate yolov5
 $ git clone https://github.com/ultralytics/yolov5.git
 $ cd yolov5/
@@ -181,15 +198,6 @@ $ pip install -r requirements.txt
 <details>
 
 <summary>BallHeight</summary>
-
-
-  
-</details>
-
-
-<details>
-
-<summary>VideoName, ShotSeq, HitFrame</summary>
 
 9. execute ballheight inference
     ```bash
