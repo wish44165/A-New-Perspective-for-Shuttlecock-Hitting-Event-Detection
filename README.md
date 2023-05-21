@@ -1,17 +1,17 @@
-# A New Perspective for Shuttlecock Hitting Event Detection
+# [Teaching Computer to Watch Badminton Matches - Taiwan's first competition combining AI and sports](https://aidea-web.tw/topic/cbea66cc-a993-4be8-933d-1aa9779001f8) (TEAM_3009)
+
+
+
+## A New Perspective for Shuttlecock Hitting Event Detection
+
+$\large{\textbf{Abstract}}$
+
+This article introduces a novel approach to shuttlecock hitting event detection. Instead of relying on general approach techniques, we utilize a sequence of images to capture the sequence of player's hitting actions. To learn the features of hitting events in a video clip, we specifically utilize a deep learning model known as SwingNet. This model is designed to capture the relevant characteristics and patterns associated with the act of hitting in badminton. By training SwingNet on the provided video clips, we aim to enable the model to accurately recognize and identify the instances of hitting events based on their distinctive features. Furthermore, we apply the specific video processing techniques to extract the prior features from the video, which significantly reduces the learning difficulty for the model. The proposed method not only provides an intuitive and user-friendly approach but also presents a fresh perspective on the conventional methods of badminton shot detection.
 
 
 
 
-## Introduction
-According to global statistics, there are approximately 2.2 billion badminton players worldwide and more than 3 million in Taiwan. This single sport is ranked second in terms of national popularity. In recent years, badminton players have achieved outstanding performances in international competitions, gradually increasing the public attention.
-
-In terms of badminton skills and tactics analysis, our team has proposed a match shuttlecock recording format and developed a computer vision assisted quick shuttlecock labeling program to initiate the research of badminton big data. Although many computer-assisted techniques have been used, manual shuttlecock labeling still requires manpower and time, especially for technical data identification, which requires badminton experts to perform. Through this competition, we hope to invite machine learning, image processing, and sports science expertise to develop an automatic shuttlecock labeling model with a high recognition rate, making the massive badminton information collection possible, and thus popularizing the research and application of badminton tactics analysis.
-
-
-
-
-## Environmental Setup
+## 1. Environmental Setup
 
 
 <details>
@@ -109,8 +109,7 @@ $ pip install -r requirements.txt
 
 
 
-## Reproduce Details
-
+## 2. Inference Details
 
 <details>
 
@@ -290,3 +289,26 @@ $ pip install -r requirements.txt
     ```
   
 </details>
+
+
+
+
+## 3. Demonstration
+
+
+
+
+## 4. Leaderboard Scores
+
+
+
+
+## 5. GitHub Acknowledgement
+
+
+
+
+## 6. References
+
+
+
