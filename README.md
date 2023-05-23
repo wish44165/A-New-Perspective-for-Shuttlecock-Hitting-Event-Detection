@@ -296,6 +296,7 @@ $ pip install -r requirements.txt
 ## 3. Demonstration
 
 
+![SwingNet](https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig2.jpg)
 
 
 ## 4. Leaderboard Scores
