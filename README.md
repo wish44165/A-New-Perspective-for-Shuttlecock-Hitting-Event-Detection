@@ -19,7 +19,7 @@ This article introduces a novel approach to shuttlecock hitting event detection.
 
 <summary>Hardware Information</summary>
 
-- CPU: i7-11700F
+- CPU: Intel® Core™ i7-11700F
 - GPU: GeForce GTX 1660 SUPER™ VENTUS XS OC (6G)
   
 </details>
