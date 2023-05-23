@@ -113,6 +113,21 @@ $ pip install -r requirements.txt
 
 <details>
 
+<summary>Folder Structure on Local Machine</summary>
+
+    ```
+    Badminton/
+    ├── data/
+        └── part1/
+            └── val/
+    ├── src/
+    ```
+
+</details>
+  
+
+<details>
+
 <summary>VideoName, ShotSeq, HitFrame</summary>
 
 1. put Badminton/data/part2/test/00170/ .. /00399/ into Badminton/data/part1/val/
