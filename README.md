@@ -115,13 +115,13 @@ $ pip install -r requirements.txt
 
 <summary>Folder Structure on Local Machine</summary>
 
-  
+    ```bash
     Badminton/
     ├── data/
         └── part1/
             └── val/
-    ├── src/
-
+    └── src/
+    ```
 
 </details>
   
