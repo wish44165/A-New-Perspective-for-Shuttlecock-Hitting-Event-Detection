@@ -3,7 +3,7 @@
 
 
 
-## A New Perspective for Shuttlecock Hitting Event Detection
+## IT4PSS2023: A New Perspective for Shuttlecock Hitting Event Detection
 
 $\large{\textbf{Abstract}}$
 
