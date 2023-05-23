@@ -300,7 +300,7 @@ $ pip install -r requirements.txt
 
 ## 4. Leaderboard Scores
 
-- [golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case2.csv]()
+- [golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case2.csv](https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/submit/golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case2.csv)
 
 ### Public Leaderboard
 <table>
@@ -341,10 +341,19 @@ $ pip install -r requirements.txt
 
 ## 5. GitHub Acknowledgement
 
+- [TrackNetV2: N-in-N-out Pytorch version (GitLab)](https://nol.cs.nctu.edu.tw:234/lukelin/TrackNetV2_pytorch.git)
+- [GolfDB: A Video Database for Golf Swing Sequencing](https://github.com/wmcnally/golfdb)
+- [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://github.com/jeonsworld/ViT-pytorch)
+- [Ultralytics YOLOv5 v7.0](https://github.com/ultralytics/yolov5)
+
 
 
 
 ## 6. References
 
+- [TrackNetV2: Efficient shuttlecock tracking network](https://ieeexplore.ieee.org/iel7/9302522/9302594/09302757.pdf)
+- [GolfDB: A Video Database for Golf Swing Sequencing](https://openaccess.thecvf.com/content_CVPRW_2019/papers/CVSports/McNally_GolfDB_A_Video_Database_for_Golf_Swing_Sequencing_CVPRW_2019_paper.pdf)
+- [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/pdf/2010.11929.pdf)
+- [Ultralytics YOLOv5 v7.0](https://ui.adsabs.harvard.edu/abs/2022zndo...7347926J/abstract)
 
 
