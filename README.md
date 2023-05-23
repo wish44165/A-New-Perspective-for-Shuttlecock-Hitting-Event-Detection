@@ -297,11 +297,11 @@ $ pip install -r requirements.txt
 
 ### 3.1. Optical Flow Calculation embedded in Reynolds Transport Theorem
 
-<img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig1.jpg" alt="RT" width="600" >
+<img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig1.jpg" alt="RT" width="700" >
 
 ### 3.2. SwingNet (MobileNetv2 + bidirectional LSTM)
 
-<img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig2.jpg" alt="SwingNet" width="600" >
+<img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig2.jpg" alt="SwingNet" width="700" >
 
 
 ## 4. Leaderboard Scores
