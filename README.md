@@ -295,11 +295,11 @@ $ pip install -r requirements.txt
 
 ## 3. Demonstration
 
-### Optical Flow Calculation embedded in Reynolds Transport Theorem
+### 3.1. Optical Flow Calculation embedded in Reynolds Transport Theorem
 
 <img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig1.jpg" alt="RT" width="600" >
 
-### SwingNet (MobileNetv2 + bidirectional LSTM)
+### 3.2. SwingNet (MobileNetv2 + bidirectional LSTM)
 
 <img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig2.jpg" alt="SwingNet" width="600" >
 
@@ -308,7 +308,7 @@ $ pip install -r requirements.txt
 
 ###### [golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case2.csv](https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/submit/golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case2.csv)
 
-### Public Leaderboard
+### 4.1. Public Leaderboard
 <table>
   <tr>
     <td>Filename</td>
@@ -325,7 +325,7 @@ $ pip install -r requirements.txt
 
 </table>
 
-### Private Leaderboard
+### 4.2. Private Leaderboard
 <table>
   <tr>
     <td>Filename</td>
