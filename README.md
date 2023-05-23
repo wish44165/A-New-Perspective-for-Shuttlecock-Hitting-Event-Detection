@@ -308,8 +308,8 @@ $ pip install -r requirements.txt
 
 |Leaderboards | Filename                                                                                        | Upload time | Evaluation result | Ranking |
 |----| -------------------------------------------------------------------------------------------- | --------------------- | -------------------- | --------------------- |
-|Public| [golfdb_G3_fold5_...csv](https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/submit/golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case2.csv) | 2023-05-15 22:21:17                   | 0.0727                 | 11/30                  |
-|Private| [golfdb_G3_fold5_...csv](https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/submit/golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case2.csv) | 2023-05-15 22:21:17                   | 0.0622                 | 11/30                  |
+|Public Leaderboard| [golfdb_G3_fold5_...csv](https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/submit/golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case2.csv) | 2023-05-15 22:21:17                   | 0.0727                 | 11/30                  |
+|Private Leaderboard| [golfdb_G3_fold5_...csv](https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/submit/golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case2.csv) | 2023-05-15 22:21:17                   | 0.0622                 | 11/30                  |
 
 
 ## 5. GitHub Acknowledgement
