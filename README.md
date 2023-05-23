@@ -3,7 +3,7 @@
 
 
 
-## IT4PSS2023: A New Perspective for Shuttlecock Hitting Event Detection
+## [IT4PSS2023](https://wasn.csie.ncu.edu.tw/workshop/IT4PSS.html): A New Perspective for Shuttlecock Hitting Event Detection
 
 $\large{\textbf{Abstract}}$
 
