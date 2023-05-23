@@ -115,6 +115,8 @@ $ pip install -r requirements.txt
 
 <summary>Folder Structure on Local Machine</summary>
 
+- Create the following folder structure on the local machine
+
     ```bash
     Badminton/
     ├── data/
