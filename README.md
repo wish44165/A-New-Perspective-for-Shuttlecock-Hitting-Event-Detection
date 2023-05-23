@@ -359,7 +359,7 @@ $ pip install -r requirements.txt
 
 ## 5. GitHub Acknowledgement
 
-- [TrackNetV2: N-in-N-out Pytorch version (GitLab)](https://nol.cs.nctu.edu.tw:234/lukelin/TrackNetV2_pytorch.git)
+- [TrackNetV2: N-in-N-out Pytorch version (GitLab)](https://nol.cs.nctu.edu.tw:234/lukelin/TrackNetV2_pytorch)
 - [GolfDB: A Video Database for Golf Swing Sequencing](https://github.com/wmcnally/golfdb)
 - [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://github.com/jeonsworld/ViT-pytorch)
 - [Ultralytics YOLOv5 v7.0](https://github.com/ultralytics/yolov5)
