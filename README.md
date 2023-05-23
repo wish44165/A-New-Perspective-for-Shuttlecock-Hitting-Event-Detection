@@ -340,7 +340,7 @@ $ pip install -r requirements.txt
 
 <img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig1.jpg" alt="RT" width="700" >
 
-### 3.2. SwingNet (MobileNetv2 + bidirectional LSTM)
+### 3.2. SwingNet (MobileNetV2 + bidirectional LSTM)
 
 <img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig2.jpg" alt="SwingNet" width="700" >
 
