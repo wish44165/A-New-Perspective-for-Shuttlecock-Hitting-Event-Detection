@@ -297,6 +297,7 @@ $ pip install -r requirements.txt
 
 ### Optical Flow Calculation embedded in Reynolds Transport Theorem
 ![RT](https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig1.jpg | width=200)
+<img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig1.jpg" alt="RT" width="200" >
 
 ### SwingNet 
 ![SwingNet](https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig2.jpg | width=200)
