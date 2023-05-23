@@ -300,6 +300,8 @@ $ pip install -r requirements.txt
 
 ## 4. Leaderboard Scores
 
+- [golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case2.csv]()
+
 ### Public Leaderboard
 <table>
   <tr>
@@ -309,7 +311,7 @@ $ pip install -r requirements.txt
     <td>Ranking</td>
   </tr>
   <tr>
-    <td>golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case2.csv</td>
+    <td>golfdb_G3_fold5_...csv</td>
     <td>2023-05-15 22:21:17</td>
     <td>0.0727</td>
     <td>11/30</td>
@@ -326,7 +328,7 @@ $ pip install -r requirements.txt
     <td>Ranking</td>
   </tr>
   <tr>
-    <td>golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case2.csv</td>
+    <td>golfdb_G3_fold5_...csv</td>
     <td>2023-05-15 22:21:17</td>
     <td>0.0622</td>
     <td>11/30</td>
