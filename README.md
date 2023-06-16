@@ -246,6 +246,9 @@ $ pip install -r requirements.txt
     $ python3 submit.py --model_type ["ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16"] --checkpoint ["output/fold1_RoundHead_ViT-B_16_checkpoint.bin","output/fold2_RoundHead_ViT-B_16_checkpoint.bin","output/fold3_RoundHead_ViT-B_16_checkpoint.bin","output/fold4_RoundHead_ViT-B_16_checkpoint.bin","output/fold5_RoundHead_ViT-B_16_checkpoint.bin"] --img_size [480,480,480,480,480]
     → Badminton/src/ViT-pytorch_Hitter/golfdb_G3_fold5_iter3000_val_test_hitter_vote_roundhead_vote.csv    # 0.0527
     → Badminton/src/ViT-pytorch_Hittergolfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean.csv    # 0.0527
+    # CodaLab
+    → Badminton/src/ViT-CodaLab_testdata_track1_hitter_vote_roundhead_vote.csv
+    → Badminton/src/ViT-CodaLab_testdata_track1_hitter_mean_roundhead_mean.csv
     ```
   
 </details>
