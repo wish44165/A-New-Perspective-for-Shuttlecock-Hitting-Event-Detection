@@ -1,0 +1,27 @@
+(tracknetv2) yuhsi@yuhsi:~/Badminton/src/TrackNetV2_pytorch$ python3 LandingX.py 
+0       00170.mp4
+1       00170.mp4
+2       00170.mp4
+3       00170.mp4
+4       00170.mp4
+          ...    
+2403    00399.mp4
+2404    00399.mp4
+2405    00399.mp4
+2406    00399.mp4
+2407    00399.mp4
+Name: VideoName, Length: 2408, dtype: object
+0        53
+1        86
+2       114
+3       140
+4       182
+       ... 
+2403     67
+2404     86
+2405     99
+2406    115
+2407    174
+Name: HitFrame, Length: 2408, dtype: int64
+2408
+2408
