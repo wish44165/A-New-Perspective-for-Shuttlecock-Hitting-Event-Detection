@@ -48,6 +48,11 @@ $ conda create -n ViT_j python==3.9 -y
 ```bash
 $ conda create -n yolov5 python=3.7 -y
 ```
+
+### YOLOv8
+```bash
+$ conda create -n yolov8 python=3.7 -y
+```
   
 </details>
 
@@ -101,6 +106,14 @@ $ python3 setup.py install
 $ conda activate yolov5
 $ git clone https://github.com/ultralytics/yolov5.git
 $ cd yolov5/
+$ pip install -r requirements.txt
+```
+  
+### YOLOv8
+```bash
+$ conda activate yolov8
+$ git clone https://github.com/ultralytics/ultralytics.git
+$ cd ultralytics/
 $ pip install -r requirements.txt
 ```
   
