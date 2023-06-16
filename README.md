@@ -247,8 +247,8 @@ $ pip install -r requirements.txt
     → Badminton/src/ViT-pytorch_Hitter/golfdb_G3_fold5_iter3000_val_test_hitter_vote_roundhead_vote.csv    # 0.0527
     → Badminton/src/ViT-pytorch_Hittergolfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean.csv    # 0.0527
     # CodaLab
-    → Badminton/src/ViT-CodaLab_testdata_track1_hitter_vote_roundhead_vote.csv
-    → Badminton/src/ViT-CodaLab_testdata_track1_hitter_mean_roundhead_mean.csv
+    → Badminton/src/ViT-pytorch_RoundHead/CodaLab_testdata_track1_hitter_vote_roundhead_vote.csv
+    → Badminton/src/ViT-pytorch_RoundHead/CodaLab_testdata_track1_hitter_mean_roundhead_mean.csv
     ```
   
 </details>
@@ -263,8 +263,8 @@ $ pip install -r requirements.txt
     $ cd Badminton/src/ViT-pytorch_Backhand/
     $ python3 submit.py --model_type ["ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16"] --checkpoint ["output/fold1_Backhand_ViT-B_16_checkpoint.bin","output/fold2_Backhand_ViT-B_16_checkpoint.bin","output/fold3_Backhand_ViT-B_16_checkpoint.bin","output/fold4_Backhand_ViT-B_16_checkpoint.bin","output/fold5_Backhand_ViT-B_16_checkpoint.bin"] --img_size [480,480,480,480,480]
     # CodaLab
-    → Badminton/src/ViT-CodaLab_testdata_track1_hitter_vote_roundhead_vote_backhand_vote.csv
-    → Badminton/src/ViT-CodaLab_testdata_track1_hitter_mean_roundhead_mean_backhand_mean.csv
+    → Badminton/src/ViT-pytorch_Backhand/CodaLab_testdata_track1_hitter_vote_roundhead_vote_backhand_vote.csv
+    → Badminton/src/ViT-pytorch_Backhand/CodaLab_testdata_track1_hitter_mean_roundhead_mean_backhand_mean.csv
     ```
   
 </details>
@@ -279,8 +279,8 @@ $ pip install -r requirements.txt
     $ cd Badminton/src/ViT-pytorch_BallHeight/
     $ python3 submit.py --model_type ["ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16"] --checkpoint ["output/fold1_BallHeight_ViT-B_16_checkpoint.bin","output/fold2_BallHeight_ViT-B_16_checkpoint.bin","output/fold3_BallHeight_ViT-B_16_checkpoint.bin","output/fold4_BallHeight_ViT-B_16_checkpoint.bin","output/fold5_BallHeight_ViT-B_16_checkpoint.bin"] --img_size [480,480,480,480,480]
     # CodaLab
-    → Badminton/src/ViT-CodaLab_testdata_track1_hitter_vote_roundhead_vote_backhand_vote_ballheight_vote.csv
-    → Badminton/src/ViT-CodaLab_testdata_track1_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean.csv
+    → Badminton/src/ViT-pytorch_BallHeight/CodaLab_testdata_track1_hitter_vote_roundhead_vote_backhand_vote_ballheight_vote.csv
+    → Badminton/src/ViT-pytorch_BallHeight/CodaLab_testdata_track1_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean.csv
     ```
   
 </details>
@@ -357,6 +357,9 @@ $ pip install -r requirements.txt
     $ conda activate ViT_j
     $ cd Badminton/src/ViT-pytorch_BallType/
     $ python3 submit.py --model_type ["ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16"] --checkpoint ["output/fold1_BallType_ViT-B_16_checkpoint.bin","output/fold2_BallType_ViT-B_16_checkpoint.bin","output/fold3_BallType_ViT-B_16_checkpoint.bin","output/fold4_BallType_ViT-B_16_checkpoint.bin","output/fold5_BallType_ViT-B_16_checkpoint.bin"] --img_size [480,480,480,480,480]
+    # CodaLab
+    → Badminton/src/ViT-pytorch_BallType/CodaLab_testdata_track1_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote.csv
+    → Badminton/src/ViT-pytorch_BallType/CodaLab_testdata_track1_hitter_vote_roundhead_vote_backhand_vote_ballheight_vote_LX_LY_case1_HD_balltype_mean.csv
     ```
   
 </details>
@@ -370,6 +373,8 @@ $ pip install -r requirements.txt
     ```bash
     $ cd Badminton/src/Vit-pytorch_Winner/
     $ python3 submit.py --model_type ["ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16"] --checkpoint ["output/fold1_Winner_ViT-B_16_checkpoint.bin","output/fold2_Winner_ViT-B_16_checkpoint.bin","output/fold3_Winner_ViT-B_16_checkpoint.bin","output/fold4_Winner_ViT-B_16_checkpoint.bin","output/fold5_Winner_ViT-B_16_checkpoint.bin"] --img_size [480,480,480,480,480]
+    # CodaLab
+    → Badminton/src/ViT-pytorch_Winner/CodaLab_testdata_track1_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case1.csv
     ```
   
 </details>
