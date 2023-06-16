@@ -326,7 +326,7 @@ $ pip install -r requirements.txt
     $ cd Badminton/src/postprocess/
     $ mkdir HitFrame_yolo
     $ python3 get_hitframe_yolo.py
-    → Badminton/src/postprocess/HitFrame_yolo/    # 1280x720, 4007
+    → Badminton/src/postprocess/HitFrame_yolo/    # 1280x720, 4007; CodaLab: 1280x720, 2408
     ```
 13. execute yolov5 inference
     ```bash
@@ -334,6 +334,9 @@ $ pip install -r requirements.txt
     $ cd Badminton/src/yolov5/
     $ python3 detect.py --weights runs/train/exp/weights/best.pt --source /home/yuhsi/Badminton/src/postprocess/HitFrame_yolo/ --conf-thres 0.3 --iou-thres 0.3 --save-txt --imgsz 2880 --agnostic-nms --augment
     → Badminton/src/yolov5/runs/detect/exp/    # 4007
+    # CodaLab
+    $ python3 detect.py --weights runs/train/exp/weights/best.pt --source /home/yuhsi/Badminton/src/postprocess/HitFrame_yolo/ --conf-thres 0.3 --iou-thres 0.3 --save-txt --imgsz 2880 --agnostic-nms --augment
+    → Badminton/src/yolov5/runs/detect/exp2/    # 2408
     ```
 14. execute landingy inference
     ```bash
