@@ -306,7 +306,12 @@ $ pip install -r requirements.txt
     $ cd Badminton/src/TrackNetV2_pytorch/
     $ python3 event_detection_custom.py
     $ python3 HitFrame.py)
+    # CodaLab
+    → Badminton/src/TrackNetV2_pytorch/CodaLab_tracknetv2_pytorch_10-10Gray_denoise_eventDetection_X.csv
     $ python3 LandingX.py
+    # CodaLab
+    → Badminton/src/TrackNetV2_pytorch/CodaLab_testdata_track1_hitter_vote_roundhead_vote_backhand_vote_ballheight_vote_LXY.csv
+    → Badminton/src/TrackNetV2_pytorch/CodaLab_testdata_track1_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LXY.csv
     ```
   
 </details>
