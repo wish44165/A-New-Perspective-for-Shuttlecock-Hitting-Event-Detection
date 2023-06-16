@@ -302,7 +302,7 @@ $ pip install -r requirements.txt
 11. execute landingx inference
     ```bash
     $ cd Badminton/src/TrackNetV2_pytorch/10-10Gray/
-    $ mkdir event
+    $ (mkdir event
     $ cd Badminton/src/TrackNetV2_pytorch/
     $ python3 event_detection_custom.py
     $ python3 HitFrame.py)
