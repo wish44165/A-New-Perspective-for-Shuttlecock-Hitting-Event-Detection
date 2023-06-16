@@ -177,6 +177,8 @@ $ pip install -r requirements.txt
 1. put Badminton/data/part2/test/00170/ .. /00399/ into Badminton/data/part1/val/
     ```bash
     → Badminton/data/part1/val/00001/ .. /00399/    # 1280x720
+    # CodaLab
+    → Badminton/data/CodaLab/testdata_track1/00170/ .. /00399/    # 1280x720
     ```
 2. convert val/+test/ to val_test_xgg/
     ```bash
@@ -185,12 +187,16 @@ $ pip install -r requirements.txt
     $ mkdir val_test_xgg
     $ python3 rt_conversion_datasets.py
     → Badminton/src/preprocess/val_test_xgg/    # 1280x720
+    # CodaLab
+    → Badminton/src/preprocess/CodaLab/testdata_track1/    # 1280x720
     ```
 3. upload val_test_xgg/ to google drive Teaching_Computer_to_Watch_Badminton_Matches_Taiwan_first_competition_combining_AI_and_sports/datasets/part1/
     ```bash
     → Teaching_Computer_to_Watch_Badminton_Matches_Taiwan_first_competition_combining_AI_and_sports/datasets/part1/val_test_xgg/
     → execute golfdb_xgg_inference_best.ipynb
     → src/Notebook/golfdb/golfdb_G3_fold5_iter3000_val_test_X.csv    # 0.0426
+    # CodaLab
+    → src/Notebook/golfdb/CodaLab_testdata_track1.csv
     ```
   
 </details>
@@ -203,6 +209,8 @@ $ pip install -r requirements.txt
 4. put golfdb_G3_fold5_iter3000_val_test_X.csv into Badminton/src/postprocess/
     ```bash
     → Badminton/src/postprocess/golfdb_G3_fold5_iter3000_val_test_X.csv
+    # CodaLab
+    → Badminton/src/postprocess/CodaLab/CodaLab_testdata_track1.csv
     ```
 5. extract hitframe from csv file
     ```bash
@@ -211,7 +219,7 @@ $ pip install -r requirements.txt
     $ mkdir HitFrame/1
     $ python3 get_hitframe.py
     >> len(vns), len(hits), len(os.listdir(savePath)) = 4007, 4007, 4007
-    → Badminton/src/postprocess/HitFrame/1/    # 720x720, 4007
+    → Badminton/src/postprocess/HitFrame/1/    # 720x720, 4007; # CodaLab: 720x720, 2408
     ```
 6. execute hitter inference
     ```bash
