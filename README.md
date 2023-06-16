@@ -262,6 +262,9 @@ $ pip install -r requirements.txt
     ```bash
     $ cd Badminton/src/ViT-pytorch_Backhand/
     $ python3 submit.py --model_type ["ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16"] --checkpoint ["output/fold1_Backhand_ViT-B_16_checkpoint.bin","output/fold2_Backhand_ViT-B_16_checkpoint.bin","output/fold3_Backhand_ViT-B_16_checkpoint.bin","output/fold4_Backhand_ViT-B_16_checkpoint.bin","output/fold5_Backhand_ViT-B_16_checkpoint.bin"] --img_size [480,480,480,480,480]
+    # CodaLab
+    → Badminton/src/ViT-CodaLab_testdata_track1_hitter_vote_roundhead_vote_backhand_vote.csv
+    → Badminton/src/ViT-CodaLab_testdata_track1_hitter_mean_roundhead_mean_backhand_mean.csv
     ```
   
 </details>
@@ -275,6 +278,9 @@ $ pip install -r requirements.txt
     ```bash
     $ cd Badminton/src/ViT-pytorch_BallHeight/
     $ python3 submit.py --model_type ["ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16","ViT-B_16"] --checkpoint ["output/fold1_BallHeight_ViT-B_16_checkpoint.bin","output/fold2_BallHeight_ViT-B_16_checkpoint.bin","output/fold3_BallHeight_ViT-B_16_checkpoint.bin","output/fold4_BallHeight_ViT-B_16_checkpoint.bin","output/fold5_BallHeight_ViT-B_16_checkpoint.bin"] --img_size [480,480,480,480,480]
+    # CodaLab
+    → Badminton/src/ViT-CodaLab_testdata_track1_hitter_vote_roundhead_vote_backhand_vote_ballheight_vote.csv
+    → Badminton/src/ViT-CodaLab_testdata_track1_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean.csv
     ```
   
 </details>
