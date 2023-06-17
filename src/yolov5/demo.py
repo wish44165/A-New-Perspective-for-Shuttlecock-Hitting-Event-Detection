@@ -34,9 +34,9 @@ def drawline(img,pt1,pt2,color,thickness=1,style='dotted',gap=20):
 WIDTH, HEIGHT = 1280, 720
 CASE = 1    ################################ 0. case ################################
 
-csvPath = '/home/yuhsi/Badminton/src/TrackNetV2_pytorch/golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LXY.csv'    ################################ 1. csvPath ################################
-filePath = '/home/yuhsi/Badminton/src/yolov5/runs/detect/exp/labels/'    ################################ 2. yolo detected path ################################
-drawPath = '/home/yuhsi/Badminton/src/yolov5/runs/detect/exp/'    ################################ 2. yolo detected path ################################
+csvPath = '/home/yuhsi/Badminton/src/TrackNetV2_pytorch/CodaLab_testdata_track1_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LXY.csv'    ################################ 1. csvPath ################################
+filePath = '/home/yuhsi/Badminton/src/yolov5/runs/detect/exp2/labels/'    ################################ 2. yolo detected path ################################
+drawPath = '/home/yuhsi/Badminton/src/yolov5/runs/detect/exp2/'    ################################ 2. yolo detected path ################################
 detectedPath = '/home/yuhsi/Badminton/src/postprocess/HitFrame_yolo/'    ################################ 3. hitframe for yolo path ################################
 
 df = pd.read_csv(csvPath)
@@ -142,7 +142,7 @@ defenderlocationY = []
 
 
 
-cap = cv2.VideoCapture('/home/yuhsi/Badminton/src/yolov5/runs/detect/exp_demo/00399.mp4')
+cap = cv2.VideoCapture('/home/yuhsi/Badminton/src/yolov5/runs/detect/exp3/00171.mp4')    ################################ 3. hitframe for yolo path ################################
 length = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
 width  = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
@@ -150,14 +150,27 @@ fps    = cap.get(cv2.CAP_PROP_FPS)
 print(length, width, height, fps)
 
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('00399.mp4',fourcc, fps, (width, height),True)
+out = cv2.VideoWriter('00171.mp4',fourcc, fps, (width, height),True)
 
+# for 00399.mp4
+"""
 drawList = df_hitframe.tolist()[-21:]
 print(drawList)
 personList = personList[-21:]
 print(personList)
 df_landingx = df_landingx[-21:]
 df_landingy = df_landingy[-21:]
+"""
+
+# for 00171.mp4
+
+drawList = df_hitframe.tolist()[11:28]
+print(drawList)
+personList = personList[11:28]
+print(personList)
+df_landingx = df_landingx[11:28]
+df_landingy = df_landingy[11:28]
+
 i = 0
 
 for fni in range(length):
@@ -205,8 +218,9 @@ for fni in range(length):
         defenderlocationX.append(defender_x)
         defenderlocationY.append(defender_y)
 
-        im = cv2.rectangle(im, (hitter_x-5, hitter_y-5), (hitter_x+5, hitter_y+5), (0,118,238), -1)
-        im = cv2.rectangle(im, (defender_x-5, defender_y-5), (defender_x+5, defender_y+5), (238,178,0),-1)
+        # AICUP version
+#        im = cv2.rectangle(im, (hitter_x-5, hitter_y-5), (hitter_x+5, hitter_y+5), (0,118,238), -1)
+#        im = cv2.rectangle(im, (defender_x-5, defender_y-5), (defender_x+5, defender_y+5), (238,178,0),-1)
 
 
         if CASE == 1:     # case 1: depending on hitter vit
