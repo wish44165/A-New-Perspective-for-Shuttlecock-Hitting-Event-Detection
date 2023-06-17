@@ -152,7 +152,8 @@ $ pip install -r requirements.txt
             ├── LandingX.py
             └── event_detection_custom.py
         ├── ultralytics/
-            └── 
+            ├── demo.py
+            └── submit.py
         ├── ViT-pytorch_Backhand/
             └── submit.py
         ├── ViT-pytorch_BallHeight/
@@ -172,6 +173,7 @@ $ pip install -r requirements.txt
             └── rt_conversion_datasets.py
         └── yolov5/
             ├── LandingY_Hitter_Defender_Location.py
+            ├── demo.py
             └── detect.py
     ```
 
