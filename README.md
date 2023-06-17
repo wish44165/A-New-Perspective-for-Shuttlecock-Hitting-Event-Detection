@@ -437,6 +437,7 @@ $ pip install -r requirements.txt
 - [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://github.com/jeonsworld/ViT-pytorch)
 - [Ultralytics YOLOv5 v7.0](https://github.com/ultralytics/yolov5)
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
+- [A PyTorch implementation of MobileNetV3](https://github.com/xiaolai-sqlai/mobilenetv3)
 - [Sequence Modeling Benchmarks and Temporal Convolutional Networks (TCN)](https://github.com/locuslab/TCN)
 
 
