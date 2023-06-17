@@ -3,11 +3,11 @@
 
 
 
-#### [AICUP2023: Teaching Computer to Watch Badminton Matches - Taiwan's first competition combining AI and sports](https://aidea-web.tw/topic/cbea66cc-a993-4be8-933d-1aa9779001f8) (TEAM_3009)
+### [AICUP2023: Teaching Computer to Watch Badminton Matches - Taiwan's first competition combining AI and sports](https://aidea-web.tw/topic/cbea66cc-a993-4be8-933d-1aa9779001f8) (TEAM_3009)
 
-#### [IT4PSS2023: Track 1 Automatic Annotation of Technical Data for Badminton Match Videos](https://codalab.lisn.upsaclay.fr/competitions/12016?secret_key=78466a50-c601-45d8-8b5d-ae027145fb81) (Team name: yc)
+### [IT4PSS2023: Track 1 Automatic Annotation of Technical Data for Badminton Match Videos](https://codalab.lisn.upsaclay.fr/competitions/12016?secret_key=78466a50-c601-45d8-8b5d-ae027145fb81) (Team name: yc)
 
-#### [International Workshop on Intelligent Technologies for Precision Sports Science (IT4PSS) in Conjunction with IJCAI 2023, the 32nd International Joint Conference on Artificial Intelligence](https://wasn.csie.ncu.edu.tw/workshop/IT4PSS.html)
+### [International Workshop on Intelligent Technologies for Precision Sports Science (IT4PSS) in Conjunction with IJCAI 2023, the 32nd International Joint Conference on Artificial Intelligence](https://wasn.csie.ncu.edu.tw/workshop/IT4PSS.html)
 
 ---
 
