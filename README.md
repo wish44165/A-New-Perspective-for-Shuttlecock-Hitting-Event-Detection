@@ -444,8 +444,12 @@ $ pip install -r requirements.txt
 
 ## 6. References
 
+- [Lucas/Kanade meets Horn/Schunck: Combining local and global optic flow methods](http://helios.mi.parisdescartes.fr/~lomn/Cours/CV/SeqVideo/Articles2017/ShunckMeetsKanade_4.pdf)
+- [Stochastic representation of the Reynolds transport theorem: revisiting large-scale modeling](https://arxiv.org/pdf/1611.03413)
 - [TrackNetV2: Efficient shuttlecock tracking network](https://ieeexplore.ieee.org/iel7/9302522/9302594/09302757.pdf)
 - [GolfDB: A Video Database for Golf Swing Sequencing](https://openaccess.thecvf.com/content_CVPRW_2019/papers/CVSports/McNally_GolfDB_A_Video_Database_for_Golf_Swing_Sequencing_CVPRW_2019_paper.pdf)
 - [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/pdf/2010.11929.pdf)
 - [Ultralytics YOLOv5 v7.0](https://ui.adsabs.harvard.edu/abs/2022zndo...7347926J/abstract)
+- [Ultralytics YOLOv8 Docs](https://docs.ultralytics.com/modes/predict/#working-with-results)
+- [Searching for mobilenetv3](http://openaccess.thecvf.com/content_ICCV_2019/papers/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.pdf)
 - [An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling](https://arxiv.org/pdf/1803.01271.pdf%E3%80%82%E6%9C%AC%E6%96%87%E5%BC%95%E7%94%A8%E7%94%A8(%5C*)%E8%A1%A8%E7%A4%BA%E3%80%82)
