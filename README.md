@@ -393,6 +393,8 @@ $ pip install -r requirements.txt
     $ mkdir pose_estimation
     $ python3 submit.py
     → Badminton/src/ViT-pytorch_Winner/CodaLab_testdata_track1_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case1_v8pose.csv
+    ## video demo
+    $ python3 demo.py
     ```
   
 </details>
