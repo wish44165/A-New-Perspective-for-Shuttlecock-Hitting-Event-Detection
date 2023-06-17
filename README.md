@@ -434,6 +434,7 @@ $ pip install -r requirements.txt
 - [GolfDB: A Video Database for Golf Swing Sequencing](https://github.com/wmcnally/golfdb)
 - [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://github.com/jeonsworld/ViT-pytorch)
 - [Ultralytics YOLOv5 v7.0](https://github.com/ultralytics/yolov5)
+- [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 - [Sequence Modeling Benchmarks and Temporal Convolutional Networks (TCN)](https://github.com/locuslab/TCN)
 
 
