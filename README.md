@@ -337,6 +337,8 @@ $ pip install -r requirements.txt
     # CodaLab
     $ python3 detect.py --weights runs/train/exp/weights/best.pt --source /home/yuhsi/Badminton/src/postprocess/HitFrame_yolo/ --conf-thres 0.3 --iou-thres 0.3 --save-txt --imgsz 2880 --agnostic-nms --augment
     → Badminton/src/yolov5/runs/detect/exp2/    # 2408
+    # video demo
+    python3 detect.py --weights runs/train/exp/weights/best.pt --source /home/yuhsi/Badminton/data/CodaLab/testdata_track1/00171/00171.mp4 --conf-thres 0.3 --iou-thres 0.3 --save-txt --imgsz 2880 --agnostic-nms --augment
     ```
 14. execute landingy inference
     ```bash
