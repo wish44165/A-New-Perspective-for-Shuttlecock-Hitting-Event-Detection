@@ -382,7 +382,7 @@ $ pip install -r requirements.txt
 
 <details>
 
-<summary>HitterLocationX, HitterLocationY, DefenderLocationX, DefenderLocationY</summary>
+<summary>HitterLocationX, HitterLocationY, DefenderLocationX, DefenderLocationY (Updated)</summary>
 
 17. use yolov8x-pose-p6.pt model to execute pose estimation
     ```bash
@@ -407,6 +407,9 @@ $ pip install -r requirements.txt
 
 <img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig2.jpg" alt="SwingNet" width="700" >
 
+### 3.3. YOLOv5 & TrackNetV2 & YOLOv8-pose 
+
+<img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig6.jpg" alt="YOLO_TrackNet" width="700" >
 
 
 
