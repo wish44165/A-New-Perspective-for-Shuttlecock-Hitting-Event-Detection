@@ -462,3 +462,16 @@ $ pip install -r requirements.txt
 - [Ultralytics YOLOv8 Docs](https://docs.ultralytics.com/modes/predict/#working-with-results)
 - [Searching for mobilenetv3](http://openaccess.thecvf.com/content_ICCV_2019/papers/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.pdf)
 - [An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling](https://arxiv.org/pdf/1803.01271.pdf%E3%80%82%E6%9C%AC%E6%96%87%E5%BC%95%E7%94%A8%E7%94%A8(%5C*)%E8%A1%A8%E7%A4%BA%E3%80%82)
+
+
+
+
+## Citation
+@misc{chen2023new,
+      title={A New Perspective for Shuttlecock Hitting Event Detection}, 
+      author={Yu-Hsi Chen},
+      year={2023},
+      eprint={2306.10293},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
