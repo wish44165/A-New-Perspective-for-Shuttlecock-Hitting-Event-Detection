@@ -430,10 +430,16 @@ $ pip install -r requirements.txt
 
 ## 4. Leaderboard Scores
 
+### 4.1. AICUP2023
 |Leaderboards | Filename                                                                                        | Upload time | Evaluation result | Ranking |
 |----| -------------------------------------------------------------------------------------------- | --------------------- | -------------------- | --------------------- |
 |Public | [golfdb_G3_fold5_...csv](https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/submit/golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case2.csv) | 2023-05-15 22:21:17                   | 0.0727                 | 11/30                  |
 |Private | [golfdb_G3_fold5_...csv](https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/submit/golfdb_G3_fold5_iter3000_val_test_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case2.csv) | 2023-05-15 22:21:17                   | 0.0622                 | 11/30                  |
+
+### 4.2. CodaLab2023
+|Leaderboards | Filename                                                                                        | Upload time | Evaluation result | Ranking |
+|----| -------------------------------------------------------------------------------------------- | --------------------- | -------------------- | --------------------- |
+|Final phase | [CodaLab_testdata_track1_...csv](https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/submit/CodaLab_testdata_track1_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case1_v8pose.csv) | 2023-06-17 16:03                   | Panding                 | Panding                  |
 
 
 
