@@ -467,6 +467,7 @@ $ pip install -r requirements.txt
 
 
 ## Citation
+```
 @misc{chen2023new,
       title={A New Perspective for Shuttlecock Hitting Event Detection}, 
       author={Yu-Hsi Chen},
@@ -475,3 +476,4 @@ $ pip install -r requirements.txt
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
+```
