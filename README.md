@@ -420,6 +420,8 @@ $ pip install -r requirements.txt
 
 [![fig1](https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig1.jpg)](https://youtu.be/6Lm6zaKWwhk)
 
+[<img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig1.jpg" width="50%">](https://youtu.be/6Lm6zaKWwhk "Now in Android: 55")
+
 
 
 
