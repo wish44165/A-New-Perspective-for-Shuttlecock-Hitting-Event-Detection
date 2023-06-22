@@ -418,7 +418,16 @@ $ pip install -r requirements.txt
 
 <img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig1.jpg" alt="RT" width="700" >
 
-[![fig1]("https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig1.jpg" width="700")](https://youtu.be/6Lm6zaKWwhk)
+[![fig1](https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig1.jpg)]()
+
+
+<div class="mceNonEditable embeditem" data-embed-url="https://youtu.be/6Lm6zaKWwhk" data-embed-height="150" data-embed-width="150" data-embed-constrain="false">
+
+<iframe width="200" height="113" src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig1.jpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+</div>
+
+
 
 ### 3.2. SwingNet (MobileNetV2 + bidirectional LSTM)
 
