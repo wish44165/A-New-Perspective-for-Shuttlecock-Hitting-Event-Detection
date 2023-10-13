@@ -460,7 +460,7 @@ $ pip install -r requirements.txt
 ### 4.2. CodaLab2023
 |Leaderboards | Filename                                                                                        | Upload time | Evaluation result | Ranking |
 |----| -------------------------------------------------------------------------------------------- | --------------------- | -------------------- | --------------------- |
-|Final phase | [CodaLab_testdata_track1_...csv](https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/submit/CodaLab_testdata_track1_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case1_v8pose.csv) | 2023-06-17 16:03                   | Panding                 | Panding                  |
+|Final phase | [CodaLab_testdata_track1_...csv](https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/submit/CodaLab_testdata_track1_hitter_mean_roundhead_mean_backhand_mean_ballheight_mean_LX_LY_case1_HD_balltype_vote_winner_mean_case1_v8pose.csv) | 2023-06-17 16:03                   | 0.3483                 | 2/2                  |
 
 
 
