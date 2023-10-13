@@ -136,6 +136,26 @@ $ pip install -r requirements.txt
 
 <details>
 
+<summary>Datasets</summary>
+
+- [Teaching Computer to Watch Badminton Matches - Taiwan's first competition combining AI and sports](https://github.com/TW-yuhsi/Teaching-Computer-to-Watch-Badminton-Matches---Taiwan-s-first-competition-combining-AI-and-sports)
+
+
+### Stage 1 dataset
+
+- [part1.zip](https://drive.google.com/file/d/1h5qRYnE2scuMGIJUq2SRWW2KLol6wMyh/view?usp=share_link)
+- [backup link.zip](https://drive.google.com/file/d/1OXqE6gDZxclW7rNU8UIFRLSVilIAO436/view?usp=share_link)
+
+### Stage 2 dataset
+
+- [part2.zip](https://drive.google.com/file/d/1SLY5YM4Q61N6DmqPuSUNzUANQ0s4mjX5/view?usp=share_link)
+- [backup link](https://drive.google.com/file/d/1jX3KDfNBSqW3SPB1JU-xZPPppcNgzWrx/view?usp=share_link)
+  
+</details>
+
+
+<details>
+
 <summary>Folder Structure on Local Machine</summary>
 
 - Create the following folder structure on the local machine
