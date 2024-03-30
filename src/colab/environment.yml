@@ -1,0 +1,23 @@
+name: shuttlecock
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - opencv-python
+    - numpy
+    - matplotlib    
+    - scipy
+    - pandas
+    - torch
+    - torchvision
+    - torchaudio
+    - tensorboard
+    - packaging
+    - seaborn
+    - tqdm
+    - scikit-learn
+    - ml-collections
+    - ttach
