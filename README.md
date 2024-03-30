@@ -126,6 +126,13 @@ $ git clone https://github.com/ultralytics/ultralytics.git
 $ cd ultralytics/
 $ pip install -r requirements.txt
 ```
+
+### for Conda users
+```bash
+$ cd crc/colab/
+$ conda env create -f environment.yml
+$ conda activate shuttlecock
+```
   
 </details>
 
