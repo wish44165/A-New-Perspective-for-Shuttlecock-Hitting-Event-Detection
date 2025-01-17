@@ -17,7 +17,7 @@
 
 $\large{\textbf{Abstract}}$
 
-This article introduces a novel approach to shuttlecock hitting event detection. Instead of depending on generic methods, we capture the hitting action of players by reasoning over a sequence of images. To learn the features of hitting events in a video clip, we specifically utilize a deep learning model known as SwingNet. This model is designed to capture the relevant characteristics and patterns associated with the act of hitting in badminton. By training SwingNet on the provided video clips, we aim to enable the model to accurately recognize and identify the instances of hitting events based on their distinctive features. Furthermore, we apply the specific video processing technique to extract the prior features from the video, which significantly reduces the learning difficulty for the model. The proposed method not only provides an intuitive and user-friendly approach but also presents a fresh perspective on the task of detecting badminton hitting events.
+This [article](https://arxiv.org/abs/2306.10293) introduces a novel approach to shuttlecock-hitting event detection. Instead of depending on generic methods, we capture the hitting action of players by reasoning over a sequence of images. To learn the features of hitting events in a video clip, we specifically utilize a deep learning model known as SwingNet. This model is designed to capture the relevant characteristics and patterns associated with the act of hitting in badminton. By training SwingNet on the provided video clips, we aim to enable the model to accurately recognize and identify the instances of hitting events based on their distinctive features. Furthermore, we apply the specific video processing technique to extract the prior features from the video, significantly reducing the model's learning difficulty. The proposed method not only provides an intuitive and user-friendly approach but also presents a fresh perspective on the task of detecting badminton-hitting events. The datasets and trained models can be found [here](https://zenodo.org/uploads/14677727).
 
 
 
@@ -144,6 +144,8 @@ $ conda activate shuttlecock
 <details>
 
 <summary>Datasets</summary>
+
+The datasets and trained models can be found [here](https://zenodo.org/uploads/14677727).
 
 ### Stage 1 dataset
 
@@ -440,7 +442,7 @@ $ conda activate shuttlecock
 
 ## 3. Demonstration
 
-### 3.1. Optical Flow Calculation embedded in Reynolds Transport Theorem
+### 3.1. Optical Flow Calculation
 
 [<img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig1.jpg" width="70%">](https://youtu.be/6Lm6zaKWwhk)
 
@@ -501,6 +503,9 @@ $ conda activate shuttlecock
 
 
 ## Citation
+
+If you find this project helpful for your research or applications, we would appreciate it if you could give it a star and cite the paper.
+
 ```
 @misc{chen2023new,
       title={A New Perspective for Shuttlecock Hitting Event Detection}, 
@@ -509,5 +514,20 @@ $ conda activate shuttlecock
       eprint={2306.10293},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
+}
+```
+
+```
+@misc{chen_2025_14677727,
+  author       = {Chen, Yu-Hsi},
+  title        = {A New Perspective for Shuttlecock Hitting Event
+                   Detection
+                  },
+  month        = jan,
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {1.0.0},
+  doi          = {10.5281/zenodo.14677727},
+  url          = {https://doi.org/10.5281/zenodo.14677727},
 }
 ```
