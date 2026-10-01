@@ -1,7 +1,12 @@
-## A New Perspective for Shuttlecock Hitting Event Detection
+> [A New Perspective for Shuttlecock Hitting Event Detection](https://drive.google.com/file/d/1-Re5X1aMxeN1YrEhRlq7Lqm9rfsZCcuJ/view)
+>
+> Yu-Hsi Chen
+<a href="https://orcid.org/0009-0006-1771-0289"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="12" alt="ORCID"></a>
 
 
 
+
+<details><summary>Competition Details</summary>
 
 ### [AICUP2023: Teaching Computer to Watch Badminton Matches - Taiwan's first competition combining AI and sports](https://aidea-web.tw/topic/cbea66cc-a993-4be8-933d-1aa9779001f8) ([TEAM_3009](https://github.com/TW-yuhsi/Teaching-Computer-to-Watch-Badminton-Matches---Taiwan-s-first-competition-combining-AI-and-sports))
 
@@ -11,11 +16,12 @@
 
 ### [CoachAI Badminton Challenge 2023](https://sites.google.com/view/coachai-challenge-2023/home) (Team name: yc)
 
----
+</details>
 
 
 
-$\large{\textbf{Abstract}}$
+
+## Abstract
 
 This [article](https://arxiv.org/abs/2306.10293) introduces a novel approach to shuttlecock-hitting event detection. Instead of depending on generic methods, we capture the hitting action of players by reasoning over a sequence of images. To learn the features of hitting events in a video clip, we specifically utilize a deep learning model known as SwingNet. This model is designed to capture the relevant characteristics and patterns associated with the act of hitting in badminton. By training SwingNet on the provided video clips, we aim to enable the model to accurately recognize and identify the instances of hitting events based on their distinctive features. Furthermore, we apply the specific video processing technique to extract the prior features from the video, significantly reducing the model's learning difficulty. The proposed method not only provides an intuitive and user-friendly approach but also presents a fresh perspective on the task of detecting badminton-hitting events. The datasets and trained models can be found [here](https://zenodo.org/uploads/14677727).
 
@@ -514,20 +520,5 @@ If you find this project helpful for your research or applications, we would app
       eprint={2306.10293},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
-}
-```
-
-```
-@misc{chen_2025_14677727,
-  author       = {Chen, Yu-Hsi},
-  title        = {A New Perspective for Shuttlecock Hitting Event
-                   Detection
-                  },
-  month        = jan,
-  year         = 2025,
-  publisher    = {Zenodo},
-  version      = {1.0.0},
-  doi          = {10.5281/zenodo.14677727},
-  url          = {https://doi.org/10.5281/zenodo.14677727},
 }
 ```
